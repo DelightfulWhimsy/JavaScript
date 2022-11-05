@@ -51,3 +51,9 @@ const str2 = 'Is this a question?';
 
 console.log(str2.endsWith('question'));
 // expected output: false
+
+
+
+const str = 'please give rs 1000'
+const amount = Number.parseInt(str.slice(15)) // Number.parseInt() is used to convert the string into an actual number
+console.log(typeof amount )
