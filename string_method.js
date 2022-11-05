@@ -32,3 +32,22 @@ const word = "fox"
 console.log(`The word " ${word} " ${sentence.includes(word) ? ' is ' : ' is not ' } in a sentence `)  //used template literals and ternary conditional statement to compare the strings
 
 // expected output: "The word "fox" is in the sentence"
+
+
+const str = "hello world"
+console.log(startsWith("hello"));
+//expected ouput: true
+
+
+const str1 = 'Cats are the best!';
+
+console.log(str1.endsWith('best!'));
+// expected output: true
+
+console.log(str1.endsWith('best', 17));
+// expected output: true
+
+const str2 = 'Is this a question?';
+
+console.log(str2.endsWith('question'));
+// expected output: false
