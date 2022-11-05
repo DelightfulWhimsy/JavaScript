@@ -23,3 +23,12 @@ console.log(name)
 
 for(let i=0;i<n.length;i++)
   console.log(  n[i])
+
+
+const sentence = " The quick brown fox jumps over the lazy dog"
+
+const word = "fox"
+
+console.log(`The word " ${word} " ${sentence.includes(word) ? ' is ' : ' is not ' } in a sentence `)  //used template literals and ternary conditional statement to compare the strings
+
+// expected output: "The word "fox" is in the sentence"
