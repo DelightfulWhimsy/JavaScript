@@ -31,3 +31,10 @@ num.unshift(33) // adds elements to the beginning
 console.log(num)
 
 //output: [33,1,2,3]
+
+let num = [1,2,3,4]
+delete num[0]  //array elements can be deleted using the delete operator
+console.log(num)
+
+//expected OUtput: [<1 empty element>, 2,3,4]
+
