@@ -16,7 +16,9 @@ console.log(n1)
 
  const rm = [1,2,3,4]
  rm.pop()  //removes the last element from the array
- console.log(rm)
+let m = rm.pop()
+ console.log(rm , m)
+//pop returns the poped element
  
  
  //expected output: [1,2,3,]
