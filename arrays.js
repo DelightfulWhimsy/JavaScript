@@ -22,3 +22,8 @@ let m = rm.pop()
  
  
  //expected output: [1,2,3,]
+
+
+let a = [1,2,3]
+let b = a.shift() //removes the first element and returns it also modifies the original array
+console.log(b , a)
