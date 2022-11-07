@@ -47,3 +47,22 @@ console.log(num.concat(a1,a2))
 
 //expected output: [1,2,3,4,5,6,7,8,9,0]
 
+//compare function 
+let compare = (a,b)=>{
+  return a-b  
+}
+
+let num = [44,555,32,21,3534]
+console.log(num.sort(compare))  /*sort takes an optional compare function.
+ If this function is provided as the first argument the sort() function will consider these values (the values return from the compare function) as the the basis of sorting*/
+
+//splice and slice
+const num = [1,2,3,4,5]
+num.splice(2,1,23,24)
+console.log(num)
+/* here in splice () 2 presents the position of the index 1 represents the number of items to be removed , lastly 23,24 are the number to be added to the array
+*/
+
+const num= [1,2,3,4,5]
+num.slice(2) //prints 3,4,5
+num.slice(2,4) //prints 3,4 
