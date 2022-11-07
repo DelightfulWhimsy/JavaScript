@@ -38,3 +38,12 @@ console.log(num)
 
 //expected OUtput: [<1 empty element>, 2,3,4]
 
+let num = [1,2,3,4]
+
+let a1 = [5,6,7]
+let a2 = [8,9,0]//array elements can be deleted using the delete operator
+console.log(num.concat(a1,a2))
+
+
+//expected output: [1,2,3,4,5,6,7,8,9,0]
+
